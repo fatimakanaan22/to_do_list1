@@ -1,0 +1,40 @@
+.search {
+  border-color: grey;
+
+  width: 100%;
+  position: relative;
+  top: -95px;
+}
+.search input {
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .search {
+    border-color: red;
+
+    position: relative;
+    top: 0px;
+  }
+}
+
+button {
+  background-color: red;
+  border-color: grey;
+  float: left;
+  width: 100%;
+  width: 10px;
+  position: relative;
+  top: -95px;
+  height: 20px;
+}
+@media (max-width: 600px) {
+  .sidal .product-page .css-vj1n65-MuiGrid-root {
+    width: 80%;
+  }
+  .button{
+    top:-px;
+  }
+  .sidal .product-page .css-19yzvh7-MuiGrid-root {
+    max-width: 100%;
+  }
+}

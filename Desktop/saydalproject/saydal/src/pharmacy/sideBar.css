@@ -1,0 +1,41 @@
+.image {
+  height: 20px;
+}
+nav .image {
+  z-index: 3;
+}
+
+@media (max-width: 991px) {
+  nav .image {
+    text-align: right;
+    padding-top: 2%;
+  }
+}
+
+@media (max-width: 600px) {
+  nav .image {
+    margin-right: 30%;
+  }
+  .no {
+    display: none;
+  }
+}
+.nav-link.active {
+  color: #39ae9a;
+}
+
+nav .css-1nxmd3h-MuiListItem-root {
+  display: initial;
+}
+nav .nav-link {
+  color: #969696;
+}
+.nav-link span, .nav-link svg {
+  font-size: 18px;
+}
+.nav-link.active > .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+  background-color: #daedeb;
+}
+nav .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover {
+  background-color: #daedeb;
+}

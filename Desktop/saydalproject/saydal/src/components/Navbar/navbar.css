@@ -1,0 +1,11 @@
+nav .image img {
+  width: 200px;
+  height: 80px;
+  object-fit: cover;
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  nav .image {
+    text-align: center;
+  }
+}

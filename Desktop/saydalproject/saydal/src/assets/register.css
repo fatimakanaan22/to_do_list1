@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  direction: rtl;
+  font-size: 1.25rem;
+}
+.tabs {
+  width: 100%;
+  margin-top: 50px;
+  z-index: 3;
+}
+
+.name,
+.mobileNumber,
+.registerType,
+.password {
+  display: block;
+
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 10%;
+  border-bottom-width: 1px;
+}
+.submit {
+  width: 100%;
+  margin-top: 5%;
+  background-color: blue;
+  border: none;
+  height: 5vh;
+  cursor: pointer;
+}
+.submit1 {
+  width: 100%;
+  margin-top: 5%;
+  background-color: blue;
+  border: none;
+  height: 5vh;
+  cursor: pointer;
+}
+
+/* Drop Down Menu  */
+
+.drop-down-menu {
+  position: relative;
+  margin: 10px 0;
+}
+.drop-down-menu-heading {
+  height: 30px;
+  padding: 4px 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+}
+.drop-down-menu span svg {
+  transition: 0.3s;
+  transform: rotate(0);
+}
+.drop-down-menu span.rotate svg {
+  transition: 0.3s;
+  transform: rotate(180deg);
+}
+.drop-down-body {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 999999;
+  transform: translateY(20px);
+}
+.drop-down-menu-list .input-form {
+  text-align: center;
+}
+.drop-down-body .input-form {
+  text-align: center;
+}
+.drop-down-body input {
+  width: 95% !important;
+  padding: 5px 10px !important;
+}
+.drop-down-body input:focus {
+  box-shadow: none !important;
+}
+.drop-down-body.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 2px solid #39ae9a !important;
+}
+.drop-down-menu-list {
+  max-height: 180px;
+  overflow: auto;
+}
+.drop-down-menu-list li {
+  transition: 0.5s;
+  margin: 0 0px 5px;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.drop-down-menu-list li:hover {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+.drop-down-menu-list::-webkit-scrollbar {
+  width: 7px;
+}
+.drop-down-menu-list::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 25px;
+}
+.drop-down-menu-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 25px;
+}
+
+.standard-select-currency {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .box {
+    background-image: url("./Images/sign-up.jpg");
+    z-index: 2;
+    position: absolute;
+    margin: 0%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+ 
+}
